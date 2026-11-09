@@ -1,0 +1,610 @@
+{
+  "entities": [
+    {
+      "id": "dept:burnaby-csc",
+      "type": "Department",
+      "name": "Burnaby Customer Service Centre",
+      "level": "municipal",
+      "jurisdiction": "City of Burnaby",
+      "address": "4949 Canada Way, Burnaby, BC V5G 1M2",
+      "notes": "Primary intake for most municipal inquiries and non-urgent reports. Hours Mon-Wed 8:00-16:45, Thu 8:00-20:00, Fri 8:00-16:45. Aims to respond within 1-2 business days."
+    },
+    {
+      "id": "dept:burnaby-engineering",
+      "type": "Department",
+      "name": "Burnaby Engineering",
+      "level": "municipal",
+      "jurisdiction": "City of Burnaby",
+      "notes": "Roads, sidewalks, water, sewer, storm drains, streetlights, traffic signals, solid waste programs. General inquiries 604-294-7460 / engineering@burnaby.ca. Emergency and after-hours via Engineering Dispatch."
+    },
+    {
+      "id": "dept:burnaby-licensing",
+      "type": "Department",
+      "name": "Burnaby Licensing",
+      "level": "municipal",
+      "jurisdiction": "City of Burnaby",
+      "address": "4949 Canada Way, Burnaby, BC V5G 1M2",
+      "notes": "Formerly Licence Office. Business licences, dog licences, and business/property bylaw concerns."
+    },
+    {
+      "id": "dept:burnaby-legislative",
+      "type": "Department",
+      "name": "Burnaby Legislative Services",
+      "level": "municipal",
+      "jurisdiction": "City of Burnaby",
+      "address": "4949 Canada Way, Burnaby, BC V5G 1M2",
+      "notes": "Correspondence channel for Mayor and Council and advisory bodies. Also handles FOI and council records."
+    },
+    {
+      "id": "dept:burnaby-rcmp",
+      "type": "Department",
+      "name": "Burnaby RCMP",
+      "level": "municipal",
+      "jurisdiction": "City of Burnaby",
+      "address": "6355 Deer Lake Avenue, Burnaby, BC V5G 2J2",
+      "notes": "Reports and complaints by phone or in person only. Do not accept reports via email, text, or social media. Emergency: 911."
+    },
+    {
+      "id": "dept:bc-ombudsperson",
+      "type": "Department",
+      "name": "BC Ombudsperson",
+      "level": "provincial",
+      "jurisdiction": "British Columbia",
+      "address": "2nd Floor, 947 Fort St, Victoria, BC; mail: PO Box 9039, Stn Prov Govt, Victoria, BC V8W 9A5",
+      "notes": "Investigates fairness complaints about provincial and local public organizations after local complaint processes have been tried. Does not accept complaints by email."
+    },
+    {
+      "id": "dept:metro-vancouver",
+      "type": "Department",
+      "name": "Metro Vancouver",
+      "level": "regional",
+      "jurisdiction": "Metro Vancouver",
+      "address": "Metrotower III, 4515 Central Boulevard, Burnaby, BC V5H 0C6",
+      "notes": "Regional utilities (water, sewers, solid waste), air quality, parks, housing, regional planning. Hours Mon-Fri 8:00-16:30."
+    },
+    {
+      "id": "dept:translink",
+      "type": "Department",
+      "name": "TransLink",
+      "level": "regional",
+      "jurisdiction": "Metro Vancouver",
+      "notes": "Regional transit authority. Customer Information Services for schedules, feedback, and service issues."
+    },
+    {
+      "id": "dept:bc-hydro",
+      "type": "Department",
+      "name": "BC Hydro",
+      "level": "provincial",
+      "jurisdiction": "British Columbia",
+      "notes": "Electric utility. Outage reporting available 24/7. Fallen power line or equipment fire: stay 10 metres away and call 911."
+    },
+    {
+      "id": "dept:service-bc",
+      "type": "Department",
+      "name": "Service BC",
+      "level": "provincial",
+      "jurisdiction": "British Columbia",
+      "notes": "Front door for BC government programs and services. Hours Mon-Fri 7:30-17:00 Pacific, except statutory holidays."
+    },
+    {
+      "id": "dept:service-canada-ocs",
+      "type": "Department",
+      "name": "Service Canada Office for Client Satisfaction",
+      "level": "federal",
+      "jurisdiction": "Canada",
+      "address": "140 Promenade du Portage, Floor 3, Mail Drop 318, Gatineau QC K1A 0J9",
+      "notes": "Neutral office for compliments, suggestions, and complaints about Service Canada delivery. Clients should first try to resolve with the responsible Service Canada program. Not for EI/CPP/OAS appeals or other departments."
+    },
+    {
+      "id": "chan:burnaby-csc-phone",
+      "type": "OfficialChannel",
+      "name": "Burnaby Customer Service phone",
+      "method": "phone",
+      "value": "604-294-7944",
+      "source_url": "https://www.burnaby.ca/our-city/contact-us",
+      "verified_on": "2026-11-09",
+      "status": "verified",
+      "owned_by": "dept:burnaby-csc"
+    },
+    {
+      "id": "chan:burnaby-csc-email",
+      "type": "OfficialChannel",
+      "name": "Burnaby Customer Service email",
+      "method": "email",
+      "value": "customerservice@burnaby.ca",
+      "source_url": "https://www.burnaby.ca/our-city/contact-us",
+      "verified_on": "2026-11-09",
+      "status": "verified",
+      "owned_by": "dept:burnaby-csc",
+      "notes": "Seed listed CustomerService@burnaby.ca; official pages publish lowercase customerservice@burnaby.ca (same mailbox)."
+    },
+    {
+      "id": "chan:burnaby-connect-app",
+      "type": "OfficialChannel",
+      "name": "BurnabyConnect app",
+      "method": "app",
+      "value": "BurnabyConnect (iOS and Android)",
+      "source_url": "https://www.burnaby.ca/our-city/whats-new/burnaby-connect-app",
+      "verified_on": "2026-11-09",
+      "status": "verified",
+      "owned_by": "dept:burnaby-csc",
+      "notes": "Official City of Burnaby mobile app. Seed name Ask & Report was not found on burnaby.ca as of verification date; use BurnabyConnect."
+    },
+    {
+      "id": "chan:burnaby-engineering-dispatch",
+      "type": "OfficialChannel",
+      "name": "Burnaby Engineering Dispatch (emergency and after-hours)",
+      "method": "phone",
+      "value": "604-294-7200",
+      "source_url": "https://www.burnaby.ca/our-city/contact-us",
+      "verified_on": "2026-11-09",
+      "status": "verified",
+      "owned_by": "dept:burnaby-engineering",
+      "notes": "Staffed 24/7 including weekends and statutory holidays. For water main breaks/leaks, sewer backups, flooding, downed trees blocking roads, immediate traffic hazards, major potholes, plugged storm drains, spills. This is also the City after-hours emergency line for these issues; no separate after-hours number found."
+    },
+    {
+      "id": "chan:burnaby-licensing-phone",
+      "type": "OfficialChannel",
+      "name": "Burnaby Licensing phone",
+      "method": "phone",
+      "value": "604-294-7320",
+      "source_url": "https://www.burnaby.ca/our-city/contact-us",
+      "verified_on": "2026-11-09",
+      "status": "verified",
+      "owned_by": "dept:burnaby-licensing"
+    },
+    {
+      "id": "chan:burnaby-licensing-email",
+      "type": "OfficialChannel",
+      "name": "Burnaby Licensing email",
+      "method": "email",
+      "value": "licence@burnaby.ca",
+      "source_url": "https://www.burnaby.ca/our-city/contact-us",
+      "verified_on": "2026-11-09",
+      "status": "verified",
+      "owned_by": "dept:burnaby-licensing"
+    },
+    {
+      "id": "chan:burnaby-legislative-email",
+      "type": "OfficialChannel",
+      "name": "Legislative Services / Mayor and Council email",
+      "method": "email",
+      "value": "legislativeservices@burnaby.ca",
+      "source_url": "https://www.burnaby.ca/our-city/meetings-and-public-hearings/submit-a-letter",
+      "verified_on": "2026-11-09",
+      "status": "verified",
+      "owned_by": "dept:burnaby-legislative"
+    },
+    {
+      "id": "chan:burnaby-legislative-mail",
+      "type": "OfficialChannel",
+      "name": "Mayor and Council mail",
+      "method": "mail",
+      "value": "Mayor and Council c/o Legislative Services, 4949 Canada Way, Burnaby, BC V5G 1M2",
+      "source_url": "https://www.burnaby.ca/our-city/meetings-and-public-hearings/submit-a-letter",
+      "verified_on": "2026-11-09",
+      "status": "verified",
+      "owned_by": "dept:burnaby-legislative"
+    },
+    {
+      "id": "chan:burnaby-legislative-phone",
+      "type": "OfficialChannel",
+      "name": "Legislative Services phone",
+      "method": "phone",
+      "value": "604-294-7944",
+      "source_url": "https://www.burnaby.ca/our-city/contact-us",
+      "verified_on": "2026-11-09",
+      "status": "verified",
+      "owned_by": "dept:burnaby-legislative",
+      "notes": "Same switchboard number as Customer Service Centre on the contact directory."
+    },
+    {
+      "id": "chan:bc-ombudsperson-form",
+      "type": "OfficialChannel",
+      "name": "BC Ombudsperson online complaint form",
+      "method": "web_form",
+      "value": "https://bcombudsperson.ca/online-complaint-form/",
+      "source_url": "https://bcombudsperson.ca/online-complaint-form/",
+      "verified_on": "2026-11-09",
+      "status": "verified",
+      "owned_by": "dept:bc-ombudsperson"
+    },
+    {
+      "id": "chan:bc-ombudsperson-phone",
+      "type": "OfficialChannel",
+      "name": "BC Ombudsperson toll-free phone",
+      "method": "phone",
+      "value": "1-800-567-3247",
+      "source_url": "https://bcombudsperson.ca/contact/",
+      "verified_on": "2026-11-09",
+      "status": "verified",
+      "owned_by": "dept:bc-ombudsperson",
+      "notes": "Published as 1-800-567-FAIR (3247). Hours Mon-Fri 9:00-16:00; Wednesdays 9:00-12:30 only."
+    },
+    {
+      "id": "chan:burnaby-rcmp-non-emergency",
+      "type": "OfficialChannel",
+      "name": "Burnaby RCMP non-emergency",
+      "method": "phone",
+      "value": "604-646-9999",
+      "source_url": "https://rcmp.ca/en/bc/burnaby/contact",
+      "verified_on": "2026-11-09",
+      "status": "verified",
+      "owned_by": "dept:burnaby-rcmp",
+      "notes": "Also listed on burnaby.ca contact directory. Emergency: 911."
+    },
+    {
+      "id": "chan:metro-vancouver-phone",
+      "type": "OfficialChannel",
+      "name": "Metro Vancouver Information Centre phone",
+      "method": "phone",
+      "value": "604-432-6200",
+      "source_url": "https://metrovancouver.org/about-us/Pages/default.aspx",
+      "verified_on": "2026-11-09",
+      "status": "verified",
+      "owned_by": "dept:metro-vancouver"
+    },
+    {
+      "id": "chan:metro-vancouver-email",
+      "type": "OfficialChannel",
+      "name": "Metro Vancouver Information Centre email",
+      "method": "email",
+      "value": "icentre@metrovancouver.org",
+      "source_url": "https://metrovancouver.org/about-us/Pages/default.aspx",
+      "verified_on": "2026-11-09",
+      "status": "verified",
+      "owned_by": "dept:metro-vancouver"
+    },
+    {
+      "id": "chan:translink-customer-info",
+      "type": "OfficialChannel",
+      "name": "TransLink Customer Information Services",
+      "method": "phone",
+      "value": "604-953-3333",
+      "source_url": "https://www.translink.ca/about-us/customer-service/contact-information",
+      "verified_on": "2026-11-09",
+      "status": "verified",
+      "owned_by": "dept:translink",
+      "notes": "Phone hours 6:30-22:00, seven days a week. Online feedback form also available on the same page."
+    },
+    {
+      "id": "chan:bc-hydro-outage",
+      "type": "OfficialChannel",
+      "name": "BC Hydro outage reporting",
+      "method": "phone",
+      "value": "1-800-224-9376",
+      "source_url": "https://www.bchydro.com/contact.html",
+      "verified_on": "2026-11-09",
+      "status": "verified",
+      "owned_by": "dept:bc-hydro",
+      "notes": "Also published as 1-800-BCHYDRO. Outage reporting 24/7. Check outage map before calling when possible."
+    },
+    {
+      "id": "chan:service-bc-phone",
+      "type": "OfficialChannel",
+      "name": "Service BC toll-free",
+      "method": "phone",
+      "value": "1-800-663-7867",
+      "source_url": "https://www2.gov.bc.ca/gov/content/home/get-help-with-government-services",
+      "verified_on": "2026-11-09",
+      "status": "verified",
+      "owned_by": "dept:service-bc",
+      "notes": "Outside Canada/USA: 1-604-660-2421. Mon-Fri 7:30-17:00 Pacific except BC statutory holidays."
+    },
+    {
+      "id": "chan:service-canada-ocs-phone",
+      "type": "OfficialChannel",
+      "name": "Service Canada Office for Client Satisfaction phone",
+      "method": "phone",
+      "value": "1-866-506-6806",
+      "source_url": "https://www.canada.ca/en/employment-social-development/corporate/service-canada/client-satisfaction.html",
+      "verified_on": "2026-11-09",
+      "status": "verified",
+      "owned_by": "dept:service-canada-ocs",
+      "notes": "Fax 1-866-506-6802; TTY 1-866-506-6803. Monitored Mon-Fri 8:00-16:00 Eastern."
+    },
+    {
+      "id": "loc:burnaby",
+      "type": "Location",
+      "name": "City of Burnaby",
+      "level": "municipality",
+      "province": "British Columbia",
+      "country": "Canada"
+    },
+    {
+      "id": "loc:metro-vancouver",
+      "type": "Location",
+      "name": "Metro Vancouver",
+      "level": "region",
+      "province": "British Columbia",
+      "country": "Canada"
+    },
+    {
+      "id": "loc:bc",
+      "type": "Location",
+      "name": "British Columbia",
+      "level": "province",
+      "country": "Canada"
+    },
+    {
+      "id": "loc:canada",
+      "type": "Location",
+      "name": "Canada",
+      "level": "country"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "rel:owns-csc-phone",
+      "type": "OWNS_CHANNEL",
+      "from": "dept:burnaby-csc",
+      "to": "chan:burnaby-csc-phone"
+    },
+    {
+      "id": "rel:owns-csc-email",
+      "type": "OWNS_CHANNEL",
+      "from": "dept:burnaby-csc",
+      "to": "chan:burnaby-csc-email"
+    },
+    {
+      "id": "rel:owns-connect",
+      "type": "OWNS_CHANNEL",
+      "from": "dept:burnaby-csc",
+      "to": "chan:burnaby-connect-app"
+    },
+    {
+      "id": "rel:owns-eng-dispatch",
+      "type": "OWNS_CHANNEL",
+      "from": "dept:burnaby-engineering",
+      "to": "chan:burnaby-engineering-dispatch"
+    },
+    {
+      "id": "rel:owns-lic-phone",
+      "type": "OWNS_CHANNEL",
+      "from": "dept:burnaby-licensing",
+      "to": "chan:burnaby-licensing-phone"
+    },
+    {
+      "id": "rel:owns-lic-email",
+      "type": "OWNS_CHANNEL",
+      "from": "dept:burnaby-licensing",
+      "to": "chan:burnaby-licensing-email"
+    },
+    {
+      "id": "rel:owns-leg-email",
+      "type": "OWNS_CHANNEL",
+      "from": "dept:burnaby-legislative",
+      "to": "chan:burnaby-legislative-email"
+    },
+    {
+      "id": "rel:owns-leg-mail",
+      "type": "OWNS_CHANNEL",
+      "from": "dept:burnaby-legislative",
+      "to": "chan:burnaby-legislative-mail"
+    },
+    {
+      "id": "rel:owns-leg-phone",
+      "type": "OWNS_CHANNEL",
+      "from": "dept:burnaby-legislative",
+      "to": "chan:burnaby-legislative-phone"
+    },
+    {
+      "id": "rel:owns-omb-form",
+      "type": "OWNS_CHANNEL",
+      "from": "dept:bc-ombudsperson",
+      "to": "chan:bc-ombudsperson-form"
+    },
+    {
+      "id": "rel:owns-omb-phone",
+      "type": "OWNS_CHANNEL",
+      "from": "dept:bc-ombudsperson",
+      "to": "chan:bc-ombudsperson-phone"
+    },
+    {
+      "id": "rel:owns-rcmp-ne",
+      "type": "OWNS_CHANNEL",
+      "from": "dept:burnaby-rcmp",
+      "to": "chan:burnaby-rcmp-non-emergency"
+    },
+    {
+      "id": "rel:owns-mv-phone",
+      "type": "OWNS_CHANNEL",
+      "from": "dept:metro-vancouver",
+      "to": "chan:metro-vancouver-phone"
+    },
+    {
+      "id": "rel:owns-mv-email",
+      "type": "OWNS_CHANNEL",
+      "from": "dept:metro-vancouver",
+      "to": "chan:metro-vancouver-email"
+    },
+    {
+      "id": "rel:owns-tl-info",
+      "type": "OWNS_CHANNEL",
+      "from": "dept:translink",
+      "to": "chan:translink-customer-info"
+    },
+    {
+      "id": "rel:owns-bch-outage",
+      "type": "OWNS_CHANNEL",
+      "from": "dept:bc-hydro",
+      "to": "chan:bc-hydro-outage"
+    },
+    {
+      "id": "rel:owns-sbc-phone",
+      "type": "OWNS_CHANNEL",
+      "from": "dept:service-bc",
+      "to": "chan:service-bc-phone"
+    },
+    {
+      "id": "rel:owns-ocs-phone",
+      "type": "OWNS_CHANNEL",
+      "from": "dept:service-canada-ocs",
+      "to": "chan:service-canada-ocs-phone"
+    },
+    {
+      "id": "rel:esc-eng-to-csc",
+      "type": "ESCALATION_PATH_FROM",
+      "from": "dept:burnaby-csc",
+      "to": "dept:burnaby-engineering",
+      "notes": "Escalate stalled Engineering issues via Customer Service Centre after department contact."
+    },
+    {
+      "id": "rel:esc-lic-to-csc",
+      "type": "ESCALATION_PATH_FROM",
+      "from": "dept:burnaby-csc",
+      "to": "dept:burnaby-licensing",
+      "notes": "Escalate stalled Licensing/bylaw issues via Customer Service Centre after department contact."
+    },
+    {
+      "id": "rel:esc-csc-to-council",
+      "type": "ESCALATION_PATH_FROM",
+      "from": "dept:burnaby-legislative",
+      "to": "dept:burnaby-csc",
+      "notes": "Escalate stalled municipal issues from Customer Service to Mayor and Council via Legislative Services."
+    },
+    {
+      "id": "rel:esc-council-to-omb",
+      "type": "ESCALATION_PATH_FROM",
+      "from": "dept:bc-ombudsperson",
+      "to": "dept:burnaby-legislative",
+      "notes": "Escalate to BC Ombudsperson after local municipal processes (department, CSC, Mayor and Council) have been tried."
+    },
+    {
+      "id": "rel:esc-csc-to-omb",
+      "type": "ESCALATION_PATH_FROM",
+      "from": "dept:bc-ombudsperson",
+      "to": "dept:burnaby-csc",
+      "notes": "Direct escalation path documented in architecture seed: Ombudsperson after local attempt starting at CSC."
+    },
+    {
+      "id": "rel:jur-burnaby-csc",
+      "type": "IN_JURISDICTION",
+      "from": "loc:burnaby",
+      "to": "dept:burnaby-csc"
+    },
+    {
+      "id": "rel:jur-burnaby-eng",
+      "type": "IN_JURISDICTION",
+      "from": "loc:burnaby",
+      "to": "dept:burnaby-engineering"
+    },
+    {
+      "id": "rel:jur-burnaby-lic",
+      "type": "IN_JURISDICTION",
+      "from": "loc:burnaby",
+      "to": "dept:burnaby-licensing"
+    },
+    {
+      "id": "rel:jur-burnaby-leg",
+      "type": "IN_JURISDICTION",
+      "from": "loc:burnaby",
+      "to": "dept:burnaby-legislative"
+    },
+    {
+      "id": "rel:jur-burnaby-rcmp",
+      "type": "IN_JURISDICTION",
+      "from": "loc:burnaby",
+      "to": "dept:burnaby-rcmp"
+    },
+    {
+      "id": "rel:jur-mv",
+      "type": "IN_JURISDICTION",
+      "from": "loc:metro-vancouver",
+      "to": "dept:metro-vancouver"
+    },
+    {
+      "id": "rel:jur-tl",
+      "type": "IN_JURISDICTION",
+      "from": "loc:metro-vancouver",
+      "to": "dept:translink"
+    },
+    {
+      "id": "rel:jur-omb",
+      "type": "IN_JURISDICTION",
+      "from": "loc:bc",
+      "to": "dept:bc-ombudsperson"
+    },
+    {
+      "id": "rel:jur-bch",
+      "type": "IN_JURISDICTION",
+      "from": "loc:bc",
+      "to": "dept:bc-hydro"
+    },
+    {
+      "id": "rel:jur-sbc",
+      "type": "IN_JURISDICTION",
+      "from": "loc:bc",
+      "to": "dept:service-bc"
+    },
+    {
+      "id": "rel:jur-ocs",
+      "type": "IN_JURISDICTION",
+      "from": "loc:canada",
+      "to": "dept:service-canada-ocs"
+    }
+  ],
+  "meta": {
+    "version": "2026-11-09",
+    "jurisdiction_focus": [
+      "City of Burnaby",
+      "Metro Vancouver",
+      "British Columbia",
+      "Canada"
+    ],
+    "ontology": {
+      "entity_types": [
+        "Citizen",
+        "Issue",
+        "Location",
+        "Department",
+        "OfficialChannel",
+        "Regulation",
+        "Evidence",
+        "Action",
+        "FollowUp",
+        "Resolution"
+      ],
+      "relationship_types": [
+        "REPORTED_BY",
+        "LOCATED_AT",
+        "FALLS_UNDER",
+        "ASSIGNED_TO",
+        "SUBMITTED_VIA",
+        "HAS_EVIDENCE",
+        "HAS_ACTION",
+        "REQUIRES_FOLLOWUP",
+        "RESOLVED_BY",
+        "OWNS_CHANNEL",
+        "SUPPORTS",
+        "RELATED_TO",
+        "IN_JURISDICTION",
+        "ESCALATION_PATH_FROM"
+      ]
+    },
+    "escalation_default": [
+      "Department (e.g. Engineering, Licensing)",
+      "Burnaby Customer Service Centre",
+      "Mayor and Council via Legislative Services",
+      "BC Ombudsperson"
+    ],
+    "seed_verification": {
+      "checked_on": "2026-11-09",
+      "timezone": "America/Vancouver",
+      "sources": [
+        "https://www.burnaby.ca/our-city/contact-us",
+        "https://www.burnaby.ca/our-city/whats-new/burnaby-connect-app",
+        "https://www.burnaby.ca/our-city/meetings-and-public-hearings/submit-a-letter",
+        "https://bcombudsperson.ca/contact/",
+        "https://bcombudsperson.ca/online-complaint-form/",
+        "https://rcmp.ca/en/bc/burnaby/contact",
+        "https://metrovancouver.org/about-us/Pages/default.aspx",
+        "https://www.translink.ca/about-us/customer-service/contact-information",
+        "https://www.bchydro.com/contact.html",
+        "https://www2.gov.bc.ca/gov/content/home/get-help-with-government-services",
+        "https://www.canada.ca/en/employment-social-development/corporate/service-canada/client-satisfaction.html"
+      ]
+    },
+    "notes": "Public seed of departments, official channels, and jurisdiction locations. Citizen, Issue, Evidence, Action, FollowUp, Resolution, and Regulation entities are created at intake time, not in this seed. Do not invent contact values. Re-verify channels before formal submissions. Paths in the live bot point at a local civic knowledge store; this repo keeps schema and seed only."
+  }
+}

@@ -6,6 +6,10 @@ Persistent civic advocate Grok Bot for Burnaby, Metro Vancouver, BC, and Canada:
 
 Municipal and higher-level complaints stall when people do not know the right department, the right contact method, or how to follow up. citi assist keeps a civic knowledge graph of issues, locations, departments, channels, evidence, actions, and follow-ups so each report is investigated, written up carefully, approved by the citizen before anything is sent, and watched until it closes.
 
+## Import into Grok Bot
+
+Copy this bot into your own Grok Bot: [Citi Assist template](https://x.ai/bot/qTMkv5hI6JrrjBWOSlYRT)
+
 ## How to use with Grok Bot
 
 1. Create a new Grok Bot (suggested name: `citi assist`).

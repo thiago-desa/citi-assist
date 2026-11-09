@@ -35,6 +35,12 @@ Skills in `skills/` are narrow prompts you can keep alongside the bot or paste i
 | `examples/fictional-pothole-case.md` | Fully fictional end-to-end walkthrough |
 | `ATTRIBUTION.md` | Design influences and official source notes |
 | `LICENSE` | MIT |
+| `AGENTS.md` | Short agent instructions, boundaries, definition of done |
+| `CONTRIBUTING.md` | How to propose changes safely |
+| `docs/failure-modes.md` | Failure modes and troubleshooting |
+| `evals/` | Golden-set behavioral regressions |
+| `scripts/check.py` | Secrets/PII/em-dash/link hygiene checks |
+| `scripts/github-workflow-checks.yml` | GitHub Actions workflow (copy to `.github/workflows/checks.yml` when the token has `workflow` scope) |
 
 ## Proof-of-work notes
 
@@ -48,6 +54,10 @@ This repository is a cleaned public snapshot of a working Grok Bot design:
 - Example case that is labeled fictional (no real citizen case data)
 
 Contact values in the seed file are taken from public official pages and were checked on 2026-11-09 (America/Vancouver). Re-verify before real use. See `ATTRIBUTION.md`.
+
+## Review findings
+
+Portfolio review notes (repos and templates): [docs/review-2026-11-09.md in repo-operational-head](https://github.com/thiago-desa/repo-operational-head/blob/main/docs/review-2026-11-09.md).
 
 ## License and attribution
 

@@ -24,7 +24,8 @@ Skills in `skills/` are narrow prompts you can keep alongside the bot or paste i
 | `agents/citi-assist.md` | Full sanitized agent definition |
 | `graphs/schema.md` | Entity types, relationships, mermaid diagram |
 | `graphs/seed-departments-channels.json` | Public seed of departments and verified channels |
-| `skills/` | Extraction, investigation, drafting, maintenance, watchdog |
+| `skills/` | Extraction, investigation, drafting, writing style, maintenance, watchdog |
+| `skills/writing-style.md` | Communication and Negotiation Graph for drafts and follow-ups |
 | `docs/architecture.md` | Super-agent and graph design |
 | `docs/workflow.md` | Intake through escalation and approval gates |
 | `examples/fictional-pothole-case.md` | Fully fictional end-to-end walkthrough |
@@ -39,6 +40,7 @@ This repository is a cleaned public snapshot of a working Grok Bot design:
 - Verified-channel rules (`source_url`, `verified_on`, `status`)
 - Router/worker operating model and weekday watchdog cadence
 - Approval gates before any send-on-behalf step
+- Communication and Negotiation Graph applied to formal drafts and follow-ups
 - Example case that is labeled fictional (no real citizen case data)
 
 Contact values in the seed file are taken from public official pages and were checked on 2026-11-09 (America/Vancouver). Re-verify before real use. See `ATTRIBUTION.md`.

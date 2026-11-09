@@ -20,7 +20,7 @@ Burnaby / BC style channels in the public seed include Customer Service (phone, 
 
 ## Phase 3 - Formalization
 
-Draft a formal notice tailored to the channel:
+Draft a formal notice tailored to the channel (apply `skills/writing-style.md`):
 
 - Clear subject
 - Precise location and description
@@ -28,6 +28,7 @@ Draft a formal notice tailored to the channel:
 - Specific request / desired outcome
 - Citation of relevant bylaw or policy if applicable
 - Citizen contact only with consent
+- Sincere appreciation where earned; people separated from the problem; calibrated How/What questions; objective criteria from the agency's own publications; next escalation held in reserve
 
 Present the draft for approval (or auto-submit only if the citizen pre-authorized that exact path).
 
